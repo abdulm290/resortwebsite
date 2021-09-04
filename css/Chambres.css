@@ -1,0 +1,102 @@
+#chembres_hero_section{
+	width:100%;
+	min-height: 400px;
+	background:linear-gradient( rgba(0,0,0.2), 
+  rgba(0,0,0,0.2)),url(../img/hero3.jpeg);
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#chembres_hero_section .banner_cnt{
+	margin: 0 auto;
+	margin-top: 150px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+#chembres_hero_section .banner_cnt h2{
+	width:60%;
+	margin: 50px auto;
+	background: none;
+	color:#fff;
+	padding: 10px;
+	font-size:40px;
+	font-weight:700;
+	border:none;
+}
+
+
+/*----chembres rooms*/
+#chambres{
+	padding:100px 0px;
+	background: #fff;
+
+}
+#chambres .room_cnt{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#chambres .room_cnt img{
+	width:100%;
+    
+}
+#chambres .room_cnt h2{	
+	color:#1e7f35;
+	font-size:15px;
+	line-height: 45px;
+	font-weight:600;
+	text-align:justify;
+	text-transform:capitalize;
+	border-bottom:2px solid #85542b;
+	margin-bottom:20px;
+	transition:.5s;
+}
+#chambres .room_cnt h2:hover{
+	color:#85542b;
+	border-bottom:2px solid #1e7f35;
+}
+#chambres .room_cnt li{
+	list-style:none;
+	color:#85542b;
+	border-bottom:.5px solid #85542b;
+	line-height:26px;
+	opacity:.9;
+}
+#chambres .room_cnt li i{
+	color:#1e7f35;
+	margin-right:10px;
+}
+#chambres .room_cnt p{
+	margin-top:20px;
+	font-size:16px;
+	color:#85542b;
+	font-weight:600;
+	margin-left:20px;
+	text-align:justify;
+	margin-bottom:30px;
+}
+#chambres .room_cnt p span{
+	color:#1e7f35;
+}
+#chambres .room_cnt a{
+	text-decoration:none;
+	color:#fff;
+	background:#1e7f35;
+	padding:15px 20px;
+	border:2px solid #1e7f35;
+	transition:.5s;
+	font-size:15px;
+	font-weight:600;
+
+}
+#chambres .room_cnt a:hover i{
+	margin-left:5px;
+	transition:.5s;
+}
+#chambres .room_cnt a:hover{
+	background:none;
+	color:#1e7f35;
+}

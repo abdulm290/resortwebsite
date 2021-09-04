@@ -1,0 +1,257 @@
+/*================ Normal desktop :992px.==================== */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+    
+		
+
+}
+/*================ Tablet desktop :768px.==================*/
+@media (min-width: 768px) and (max-width: 991px) {	
+
+    .navbar-collapse{
+        background-color: rgb(0,0,0.3);
+        text-align: center;
+        color: #fff;
+        padding: 30px 20px;
+    }
+    nav.navbar .nav-item .nav-link::before{
+        display: none
+    }
+    nav.navbar .nav-item:first-child{
+        padding-left: 13px;
+        margin-top: 15px
+    }
+    nav.navbar .nav-item:last-child{
+        padding-right: 13px;
+        margin-bottom: 15px
+    }
+    nav.navbar .nav-item .nav-link{
+        padding: 8px 10px
+    }
+
+    #hero_section{
+        width:100%;
+        min-height: 500px;
+    }
+    .banner_cnt{
+        margin: 0 auto;
+        margin-top: 200px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_cnt h2{
+        width:80%;
+        margin: 50px auto;
+        border:2px solid #1e7f35;
+        background: none;
+        color:#fff;
+        padding: 10px;
+        font-size:30px;
+        font-weight:700;
+    }
+    .booking-form a{
+        margin-left:0px;
+    }
+    .booking-form a{
+        margin-left:0px;
+    }
+    #revues .revw img{
+        width:100%;
+
+    }
+     #revues .content{
+     padding: 5px;
+    }
+    #contact_frm form{
+        padding: 20px;
+        border:0.1px solid #1e7f35;
+    }
+	
+}
+/*================== small mobile :320px. ===================*/
+@media (max-width: 767px) {		
+	
+    .navbar-collapse {
+        background-color: rgb(0,0,0.3);
+        text-align: center;
+        color: #fff;
+        padding: 30px 20px;
+    }
+    nav.navbar .nav-item .nav-link::before{
+        display: none
+    }
+    nav.navbar .nav-item:first-child{
+        padding-left: 13px;
+        margin-top: 15px
+    }
+    nav.navbar .nav-item:last-child{
+        padding-right: 13px;
+        margin-bottom: 15px
+    }
+    nav.navbar .nav-item .nav-link{
+        padding: 8px 10px
+    }
+   #hero_section{
+        width:100%;
+        min-height: 400px;
+    }
+    .banner_cnt{
+        margin: 0 auto;
+        margin-top: 150px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_cnt h2{
+        width:90%;
+        margin: 50px auto;
+        border:2px solid #1e7f35;
+        background: none;
+        color:#fff;
+        padding: 10px;
+        font-size:30px;
+        font-weight:700;
+    }
+     .booking-form a{
+        margin-left:0px;
+    }
+    #GALLERY .row{
+        padding: 20px;
+    }
+    #GALLERY .col-lg-4{
+        margin-bottom: 20px;
+    }
+    #testimonial .header-text,
+    #Rooms .header-text,
+    #testimonial .left_content{
+        padding: 30px;
+    }
+  #testimonial .header-text,
+    #Rooms .header-text{
+        font-size: 30px;
+
+    }
+     #revues .revw img{
+        width:100%;
+
+    }
+     #revues .content{
+     padding: 5px;
+    }
+    #contact_frm form{
+        padding: 20px;
+        border:0.1px solid #1e7f35;
+    }
+    #reservation_hero_section .banner_cnt h2{
+        width:90%;
+        margin: 50px auto;
+        background: none;
+        color:#fff;
+        padding: 10px;
+        font-size:40px;
+        font-weight:700;
+        border:none;
+    }
+    #reservation_hero_section .banner_cnt p{
+        width:90%;
+        margin: 0px auto;
+        background: none;
+        color:#fff;
+        padding: 10px;
+        font-size:15px;
+        font-weight:500;
+    }
+
+    
+
+    
+}
+/* ======================Large Mobile :480px.================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {	
+
+    .navbar-collapse {
+        background-color: rgb(0,0,0.3);
+        text-align: center;
+        color: #fff;
+        padding: 30px 20px;
+    }
+    nav.navbar .nav-item .nav-link::before{
+        display: none
+    }
+    nav.navbar .nav-item:first-child{
+        padding-left: 13px;
+        margin-top: 15px
+    }
+    nav.navbar .nav-item:last-child{
+        padding-right: 13px;
+        margin-bottom: 15px
+    }
+    nav.navbar .nav-item .nav-link{
+        padding: 8px 10px
+    }
+    
+    nav.fixed-top .nav-item .nav-link{
+        color:#fff !important
+    }
+    #revues .revw img{
+        width:100%;
+
+    }
+    #revues .content{
+     padding: 5px;
+    }
+    #contact_frm form{
+        padding: 20px;
+        border:0.1px solid #1e7f35;
+    }
+    #reservation_hero_section{
+        width:100%;
+        min-height: 450px;
+        background:linear-gradient( rgba(0,0,0.5), 
+      rgba(0,0,0,0.5)),url(../img/photodune4.jpg);
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #reservation_hero_section .banner_cnt h2{
+        width:90%;
+        margin: 50px auto;
+        background: none;
+        color:#fff;
+        padding: 10px;
+        font-size:40px;
+        font-weight:700;
+        border:none;
+    }
+    #reservation_hero_section .banner_cnt p{
+        width:90%;
+        margin: 0px auto;
+        background: none;
+        color:#fff;
+        padding: 10px;
+        font-size:15px;
+        font-weight:500;
+    }
+
+    
+	
+	
+
+}
+
+@media(max-width:575px) {
+   
+ 
+
+}
+
+@media(min-width:576px) and (max-width:767px) {
+   
+}
+
+
+

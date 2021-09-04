@@ -1,0 +1,300 @@
+#reservation_hero_section{
+	width:100%;
+	min-height: 400px;
+	background:linear-gradient( rgba(0,0,0.5), 
+  rgba(0,0,0,0.5)),url(../img/photodune4.jpg);
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#reservation_hero_section .banner_cnt{
+	margin: 0 auto;
+	margin-top: 150px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+#reservation_hero_section .banner_cnt h2{
+	width:60%;
+	margin: 50px auto;
+	background: none;
+	color:#fff;
+	padding: 10px;
+	font-size:40px;
+	font-weight:700;
+	border:none;
+}
+#reservation_hero_section .banner_cnt p{
+	width:80%;
+	margin: 0px auto;
+	background: none;
+	color:#fff;
+	padding: 10px;
+	font-size:15px;
+	font-weight:500;
+}
+
+/*================================================
+- Reservation Form SECTION CSS
+==================================================*/
+
+#form-section{
+		background-color: #F5F5F5;
+}
+#form-section .form-row {
+		padding: 80px 0px 80px 0px;
+	
+}
+.form-body{
+
+	background-color: #FFFFFF;
+	padding: 20px;
+
+}
+.form-body .heading-text{
+	padding: 20px;
+}
+.form-body .form-heading{
+
+	font-size: 12px;
+	color: #1e7f35;
+	font-weight: 700;
+}
+.form-body .form-caption{
+	font-family: "Playfair Display", sans-serif;
+	font-weight: 400;	
+	color:#24324a;
+	line-height: 33px;
+}
+.form-body .form-title{
+	font-size: 14px;
+	line-height: 24px;
+	color: #1e7f35;
+	font-weight: 400;	
+	padding: 10px 0px 10px 0px;
+	margin-bottom:20px;
+}
+form.booking-form{
+		margin-top:10px;
+}
+form.booking-form input.form-control{
+		border-radius: 0;
+		font-family:  Lato,sans-serif;
+		font-size: 12px;
+		margin: 10px 0px 10px 0px;
+		box-shadow: inset 1px 1px 4px 0 rgba(40,35,29,.1);
+		width: 100%;
+		outline: 0;
+		padding: 0 15px;
+		height:40px;
+		line-height: 40px;
+		border: 1px solid #e1e1e1;
+		color:#000;
+}
+form.booking-form textarea{
+		
+	border-radius: 0;
+		font-family:  Lato,sans-serif;
+		font-size: 12px;
+		margin: 10px 0px 10px 0px;
+		box-shadow: inset 1px 1px 4px 0 rgba(40,35,29,.1);
+		width: 100%;
+		outline: 0;
+		padding: 0 15px;
+		height:150px;
+		line-height: 40px;
+		border: 1px solid #e1e1e1;
+		background-color: #fff;
+}
+form select option{
+	color:#24324a;
+}
+
+form .form-control:focus,{
+	border:1px solid #1E7F35;
+}
+form .btn{
+	width:200px;
+	text-decoration:none;
+	color:#fff !important;
+	text-align:center;
+	align-items:center;
+	background:#1E7F35;
+	border:2px solid #1E7F35;
+	padding:30px 60px;
+	transition:.5s;
+	margin-top: 30px;
+	line-height: 25px;
+}
+form .btn:hover{
+	background:#fff;
+	border:2px solid #1E7F35;
+	color:#1E7F35 !important;
+}
+
+
+.booking-form input{
+	width:200px;
+	border:.5px solid #e2e0e0;
+	padding:20px 20px;
+	overflow:hidden;
+	outline:none;
+	color:#fff;
+	font-size:13px;
+}
+.booking-form select{
+	width:200px;
+	border:.5px solid #e2e0e0;
+	padding:20px 20px;
+	overflow:hidden;
+	outline:none;
+	color:#6c757d;
+	font-size:13px;
+
+
+
+}
+.booking-form select option{
+	color:#6c757d
+	font-size:13px;
+}
+	/*Book siderbar start*/
+.book-sidebar{
+	padding:20px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+.book-sidebar h5{
+		
+	font-size: 12px;		
+	color: #1e7f35;		
+	font-weight: 700;
+}
+.book-sidebar h1{
+	font-family: "Playfair Display", sans-serif;		
+	font-weight: 400;		
+	color: #24324a;		
+	line-height: 33px;		
+	font-size: 30px;		
+	padding: 5px 0px 10px 0px;
+}
+.book-sidebar .row .room-image{
+		width: 100%;
+		height: auto;
+}
+.book-sidebar .row .b-details{
+		
+}
+.book-sidebar .row .b-details h3 a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+}
+.book-sidebar .book-row {
+    padding: 10px 0px 10px 0px;
+ }
+.book-sidebar .row .col-md-6 a {
+	    background-image: url('images/photo-room-5.jpg');
+}
+.book-sidebar .row .b-details h3:hover a {
+    color: #1e7f35;
+    transition: color 0.3s;
+}
+.book-sidebar .row .b-details h3{
+		font-size: 20px;
+		line-height: 25px;
+}
+.book-sidebar .row .b-details h4{
+
+font-size: 14px;
+
+line-height: 15px;
+
+color: #1e7f35;
+
+font-family: lato;
+
+padding: 5px 0px 5px 0px;
+}
+.book-sidebar .row .b-details h4 small {
+    color: #24324A;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 9px;
+}
+.detail-list ul{
+		list-style-type: none;
+}
+.detail-list {
+		    margin-top: 20px;
+		    font-family: Lato,sans-serif;
+		    font-weight: 700;
+		    font-size: 11px;
+		    /* border-bottom: 1px solid #e1e1e1; */
+}
+.detail-list ul li {
+		    width: 50%;
+		    float: left;
+		    padding: 10px;
+		    border-bottom: 1px solid #e1e1e1;
+		    text-transform: uppercase;
+}
+.detail-list ul li label{
+		color: #818a9c;
+}
+.detail-list ul li p{
+		line-height: normal;
+    	margin: 0;
+}
+.detail-list ul li.total{
+		width: 100%;
+}
+	
+	/*Book siderbar end*/
+	/*Book contact start*/
+.book-contact{
+		margin-top: 30px;
+    padding: 40px;
+    border: 15px solid #fff;
+}
+.book-contact h5 {
+    font-size: 12px;
+    font-weight: 900;
+    color: #1e7f35;
+}
+.book-contact h2{
+	font-family: "Playfair Display", sans-serif;
+	font-weight: 400;
+	color: #24324a;
+	line-height: 33px;
+	width: 100%;
+	font-size: 30px;
+	padding: 5px 0px 10px 0px;
+}
+.book-contact p{
+		font-size:14px; 
+		font-family: "Playfair Display", sans-serif;
+		color:#6E7786;
+		font-weight: 400;
+		line-height: 24px;
+		width: 100%;
+}
+.book-contact p a{
+		color:#6E7786;
+
+}
+.book-contact h3{
+	color:#24324A;
+	font-size: 20px;
+	font-weight: 700;
+}
+.book-contact h3 i{
+	color: #1e7f35;
+	margin-right: 15px;
+	font-size:20px;
+}
+	/*Book contact end*/
+	

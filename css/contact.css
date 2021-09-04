@@ -1,0 +1,126 @@
+#contact_hero_section{
+	width:100%;
+	min-height: 400px;
+	background:linear-gradient( rgba(0,0,0.5), 
+  rgba(0,0,0,0.5)),url(../img/holiday3.jpg);
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact_hero_section .banner_cnt{
+	margin: 0 auto;
+	margin-top: 150px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+#contact_hero_section .banner_cnt h2{
+	width:60%;
+	margin: 50px auto;
+	background: none;
+	color:#fff;
+	padding: 10px;
+	font-size:40px;
+	font-weight:700;
+	border:none;
+}
+#contact_hero_section .banner_cnt p{
+	width:80%;
+	margin: 0px auto;
+	background: none;
+	color:#fff;
+	padding: 10px;
+	font-size:15px;
+	font-weight:500;
+}
+
+
+/*================================================
+- Contact Form SECTION CSS
+==================================================*/
+#contact_frm{
+	padding: 80px 0px;
+	width:100%;
+	background: #fff;
+}
+#contact_frm h2{
+	color:#1E7F35;
+	font-size: 16px;
+	font-weight:600;
+	text-align:justify;
+	text-transform:capitalize;
+	margin-bottom:20px;
+
+
+}
+#contact_frm p{
+	color:#525653;
+	font-size: 13px;
+    line-height: 15px;
+	font-weight:500;
+	text-align:justify;
+	text-transform:capitalize;
+	
+
+}
+
+#contact_frm .col-lg-4{
+	padding:20px;
+	margin-bottom:20px;
+
+}
+
+#contact_frm form{
+	padding: 50px;
+	border:0.1px solid #1e7f35;
+}
+#contact_frm form .form-control{
+	margin-top:10px;
+}
+#contact_frm form input{
+	line-height:20px;
+	padding:15px 30px;
+	outline:none;
+	overflow:hidden;
+}
+#contact_frm form textarea{
+	padding:20px 20px;
+	text-align:center;
+	height:150px !important;
+}
+form .btn{
+	width:200px;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	align-items:center;
+	background:#1E7F35;
+	border:2px solid #1E7F35;
+	padding:20px 0px;
+	transition:.5s;
+	margin-top: 30px;
+	line-height: 25px;
+}
+form .btn:hover{
+	background:#fff;
+	border:2px solid #1E7F35;
+	color:#1E7F35;
+}
+#contact_frm form input:focus,
+#contact_frm form textarea:focus{
+    border:.5px solid #1e7f35 !important;
+    transition:.5s;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+#contact_frm form{
+	padding: 20px;
+	border:0.1px solid #1e7f35;
+}
+
+}

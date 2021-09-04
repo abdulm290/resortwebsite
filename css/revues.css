@@ -1,0 +1,114 @@
+#Revues_hero_section{
+	width:100%;
+	min-height: 400px;
+	background:linear-gradient( rgba(0,0,0.5), 
+  rgba(0,0,0,0.5)),url(../img/hero2.jpg);
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#Revues_hero_section .banner_cnt{
+	margin: 0 auto;
+	margin-top: 170px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+#Revues_hero_section .banner_cnt h2{
+	width:60%;
+	margin: 50px auto;
+	background: none;
+	color:#fff;
+	padding: 10px;
+	font-size:40px;
+	font-weight:700;
+	border:none;
+}
+#Revues_hero_section .banner_cnt p{
+	width:80%;
+	margin: 0px auto;
+	background: none;
+	color:#fff;
+	padding: 10px;
+	font-size:15px;
+	font-weight:500;
+}
+
+
+/*================================================
+
+ Revues SECTION  CSS here
+
+
+==================================================*/
+#revues{
+	padding: 80px 0px;
+}
+#revues h2{
+	text-align: justify;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 30px;
+	text-transform: capitalize;
+	color:#000;
+}
+#revues .title_min{
+	text-align: justify !important;
+	margin: 3px;
+}
+#revues p{
+	text-align: justify;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+	text-transform: normal;
+	color:#9D9D9D;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+#revues .revw .row{
+	margin-bottom: 50px;
+}
+#revues .revw img{
+	width:80%;
+	border-radius: 50%;
+
+}
+#revues .revw{
+	padding: 20px 0px;
+}
+
+#revues .content{
+	padding: 20px;
+}
+#revues .content h2{
+text-align: justify;
+font-family: Georgia;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+	text-transform: capitalize;
+	color:#000;
+}
+#revues .content p{
+ 	text-align: justify;
+ 	font-family: arial;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 22px;
+	text-transform: lowercase;
+	color:#9D9D9D;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#revues .content a{
+	text-decoration: none;
+	transition:.5s;
+
+}
+#revues .content a:hover{
+	margin-left: 5px;
+	transition:.5s;
+}
